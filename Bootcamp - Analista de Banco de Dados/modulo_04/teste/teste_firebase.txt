@@ -1,0 +1,36 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Firebase Realtime Database Quickstart</title>
+</head>
+<body>
+<h1 id="CabTeste"></h1>
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.19.0/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+var firebaseConfig = {
+    apiKey: "AIzaSyCXs5jV0NgcFl3qEL9lVM8IR7TBD49W7u8",
+    authDomain: "supple-cosine-271204.firebaseapp.com",
+    databaseURL: "https://supple-cosine-271204.firebaseio.com",
+    projectId: "supple-cosine-271204",
+    storageBucket: "supple-cosine-271204.appspot.com",
+    messagingSenderId: "855827360563",
+    appId: "1:855827360563:web:cca89e92877744addd2c46",
+    measurementId: "G-0ZEN0ELX86"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+var CabTeste = document.getElementById('CabTeste');
+var dbRef = firebase.database().ref().child('textoteste');
+dbRef.on('value', snap => CabTeste.innerText = snap.val());
+</script>
+</body>
+</html>

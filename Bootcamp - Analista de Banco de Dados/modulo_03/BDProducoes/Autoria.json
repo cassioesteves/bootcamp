@@ -1,0 +1,21 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Autoria",
+    "additionalProperties": false,
+    "properties": {
+        "cod_autoria": {
+            "type": "number"
+        },
+        "cod_titulo": {
+            "type": "number"
+        },
+        "cod_pessoa": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "cod_titulo",
+        "cod_pessoa"
+    ]
+}

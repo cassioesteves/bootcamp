@@ -1,0 +1,58 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "empregados",
+    "additionalProperties": false,
+    "properties": {
+        "_id": {
+            "type": "string",
+            "pattern": "^[a-fA-F0-9]{24}$"
+        },
+        "primeiro_nome": {
+            "type": "string"
+        },
+        "ultimo_nome": {
+            "type": "string"
+        },
+        "e-mail": {
+            "type": "string",
+            "maxLength": 50
+        },
+        "data_admissao": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "salario": {
+            "type": "number"
+        },
+        "departamento_nome": {
+            "type": "string"
+        },
+        "cargo_nome": {
+            "type": "string"
+        },
+        "cidade": {
+            "type": "string"
+        },
+        "pais_nome": {
+            "type": "string"
+        },
+        "regiao_nome": {
+            "type": "string"
+        },
+        "cargo_historico": {
+            "type": "array",
+            "additionalItems": true,
+            "uniqueItems": false,
+            "items": {
+                "type": "array",
+                "additionalItems": true,
+                "uniqueItems": false
+            }
+        }
+    },
+    "required": [
+        "primeiro_nome",
+        "e-mail"
+    ]
+}

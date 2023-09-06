@@ -1,0 +1,1131 @@
+{
+    "GUID": "7c8818b0-c6ac-11ea-a1d6-919089dfc45d",
+    "modelName": "New Model",
+    "code": "",
+    "lastModifTS": "2020-07-16T19:46:47.398Z",
+    "persistenceSchemaVersion": "4",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "collections": [
+        {
+            "GUID": "90bfe0b0-c6ac-11ea-a1d6-919089dfc45d",
+            "collectionName": "vendas",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "objectId",
+                    "format": "",
+                    "primaryKey": true,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "sample": "",
+                    "GUID": "ee87c050-c6ac-11ea-a1d6-919089dfc45d",
+                    "name": "_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "numeric",
+                    "mode": "",
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "fabe1fe0-c6ac-11ea-a1d6-919089dfc45d",
+                    "name": "valor",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": true,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "15435ec0-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "nf",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "document",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "properties": [
+                        {
+                            "type": "array",
+                            "properties": [
+                                {
+                                    "type": "string",
+                                    "minLength": "",
+                                    "maxLength": "",
+                                    "pattern": "",
+                                    "format": "",
+                                    "default": "",
+                                    "primaryKey": false,
+                                    "relationshipType": "",
+                                    "parentRelationship": "",
+                                    "childRelationships": [],
+                                    "foreignCollection": "",
+                                    "foreignField": [],
+                                    "enum": [],
+                                    "sample": "",
+                                    "GUID": "f640ff60-c6b0-11ea-a1d6-919089dfc45d",
+                                    "description": "",
+                                    "comments": "",
+                                    "required": false,
+                                    "id": "",
+                                    "hackoladeMeta": {},
+                                    "arrayItem": true,
+                                    "arrayParentType": "array",
+                                    "displayName": "item_produto",
+                                    "error": {
+                                        "displayName": false
+                                    }
+                                }
+                            ],
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "additionalItems": true,
+                            "minItems": "",
+                            "maxItems": "",
+                            "uniqueItems": false,
+                            "enum": [],
+                            "GUID": "efe99d70-c6b0-11ea-a1d6-919089dfc45d",
+                            "name": "itens",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {}
+                        }
+                    ],
+                    "dependencies": [],
+                    "minProperties": "",
+                    "maxProperties": "",
+                    "additionalProperties": false,
+                    "enum": [],
+                    "GUID": "310cdd70-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "produto",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "05b8e040-c6af-11ea-a1d6-919089dfc45d",
+                    "childRelationships": [],
+                    "foreignCollection": "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+                    "foreignField": [
+                        "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+                        "786a5da0-c6ad-11ea-a1d6-919089dfc45d"
+                    ],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "ebf3bd10-c6ae-11ea-a1d6-919089dfc45d",
+                    "name": "vendedor",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "90c2edf0-c6ac-11ea-a1d6-919089dfc45d"
+            },
+            "capped": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "size": "",
+            "max": "",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "key": "",
+                "hashed": false,
+                "unique": true,
+                "numInitialChunks": "",
+                "collation": "null",
+                "zone": "",
+                "comments": ""
+            },
+            "bucketId": "81a748c0-c6ac-11ea-a1d6-919089dfc45d",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+            "collectionName": "pessoas",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "objectId",
+                    "format": "",
+                    "primaryKey": true,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "sample": "",
+                    "GUID": "6853b6a0-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [
+                        "05b8e040-c6af-11ea-a1d6-919089dfc45d",
+                        "6d1c7760-c6af-11ea-a1d6-919089dfc45d"
+                    ],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "786a5da0-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "cpf",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": true,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "82e4dc60-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "email",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "document",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "properties": [
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "56834a50-c6b0-11ea-a1d6-919089dfc45d",
+                            "name": "logradouro",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "61cb2b30-c6b0-11ea-a1d6-919089dfc45d",
+                            "name": "numero",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "6d0a5980-c6b0-11ea-a1d6-919089dfc45d",
+                            "name": "complemento",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "74d8a400-c6b0-11ea-a1d6-919089dfc45d",
+                            "name": "bairro",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "7de9a7b0-c6b0-11ea-a1d6-919089dfc45d",
+                            "name": "cidade",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "825f7860-c6b0-11ea-a1d6-919089dfc45d",
+                            "name": "estado",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        },
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "d1f9bc50-c6b0-11ea-a1d6-919089dfc45d",
+                            "name": "pais",
+                            "code": "",
+                            "description": "",
+                            "comments": "",
+                            "dependencies": [],
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "error": {
+                                "name": false
+                            }
+                        }
+                    ],
+                    "dependencies": [],
+                    "minProperties": "",
+                    "maxProperties": "",
+                    "additionalProperties": false,
+                    "enum": [],
+                    "GUID": "86f0a0a0-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "endereco",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "a9134b70-c6ac-11ea-a1d6-919089dfc45d"
+            },
+            "capped": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "size": "",
+            "max": "",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "key": "",
+                "hashed": false,
+                "unique": true,
+                "numInitialChunks": "",
+                "collation": "null",
+                "zone": "",
+                "comments": ""
+            },
+            "bucketId": "81a748c0-c6ac-11ea-a1d6-919089dfc45d",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "b3051230-c6ac-11ea-a1d6-919089dfc45d",
+            "collectionName": "compras",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "objectId",
+                    "format": "",
+                    "primaryKey": true,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "sample": "",
+                    "GUID": "923d8a90-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "date",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "format": "",
+                    "sample": "",
+                    "GUID": "9a6b3320-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "data",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "numeric",
+                    "mode": "",
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "ac9eedc0-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "valor",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "b8707100-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "nota_fiscal",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "6d1c7760-c6af-11ea-a1d6-919089dfc45d",
+                    "childRelationships": [],
+                    "foreignCollection": "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+                    "foreignField": [
+                        "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+                        "786a5da0-c6ad-11ea-a1d6-919089dfc45d"
+                    ],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "5c41bd10-c6af-11ea-a1d6-919089dfc45d",
+                    "name": "comprador",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "b3084680-c6ac-11ea-a1d6-919089dfc45d"
+            },
+            "capped": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "size": "",
+            "max": "",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "key": "",
+                "hashed": false,
+                "unique": true,
+                "numInitialChunks": "",
+                "collation": "null",
+                "zone": "",
+                "comments": ""
+            },
+            "bucketId": "81a748c0-c6ac-11ea-a1d6-919089dfc45d",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "bc1a0d80-c6ac-11ea-a1d6-919089dfc45d",
+            "collectionName": "marketing",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "type": "objectId",
+                    "format": "",
+                    "primaryKey": true,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "sample": "",
+                    "GUID": "c526fd10-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "_id",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "string",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "format": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "enum": [],
+                    "sample": "",
+                    "GUID": "62e18f20-c6ae-11ea-a1d6-919089dfc45d",
+                    "name": "campanha",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "type": "date",
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "format": "",
+                    "sample": "",
+                    "GUID": "ce9e63b0-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "data",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                },
+                {
+                    "type": "array",
+                    "properties": [
+                        {
+                            "type": "string",
+                            "minLength": "",
+                            "maxLength": "",
+                            "pattern": "",
+                            "format": "",
+                            "default": "",
+                            "primaryKey": false,
+                            "relationshipType": "",
+                            "parentRelationship": "",
+                            "childRelationships": [],
+                            "foreignCollection": "",
+                            "foreignField": [],
+                            "enum": [],
+                            "sample": "",
+                            "GUID": "f4e48400-c6ad-11ea-a1d6-919089dfc45d",
+                            "description": "",
+                            "comments": "",
+                            "required": false,
+                            "id": "",
+                            "hackoladeMeta": {},
+                            "arrayItem": true,
+                            "arrayParentType": "array",
+                            "displayName": "nome_produto",
+                            "error": {
+                                "displayName": false
+                            }
+                        }
+                    ],
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "additionalItems": true,
+                    "minItems": "",
+                    "maxItems": "",
+                    "uniqueItems": false,
+                    "enum": [],
+                    "GUID": "d3b68ee0-c6ad-11ea-a1d6-919089dfc45d",
+                    "name": "produtos",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bc1d1ac0-c6ac-11ea-a1d6-919089dfc45d"
+            },
+            "capped": false,
+            "validationLevel": "Off",
+            "validationAction": "Warn",
+            "size": "",
+            "max": "",
+            "storageEngineName": "WiredTiger",
+            "collectionUsers": [],
+            "indexes": [],
+            "collation": {},
+            "sharding": {
+                "key": "",
+                "hashed": false,
+                "unique": true,
+                "numInitialChunks": "",
+                "collation": "null",
+                "zone": "",
+                "comments": ""
+            },
+            "bucketId": "81a748c0-c6ac-11ea-a1d6-919089dfc45d",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "81a748c0-c6ac-11ea-a1d6-919089dfc45d",
+            "name": "operacoes",
+            "code": "",
+            "type": "bucket",
+            "description": "",
+            "comments": "",
+            "collectionIds": [
+                "90bfe0b0-c6ac-11ea-a1d6-919089dfc45d",
+                "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+                "b3051230-c6ac-11ea-a1d6-919089dfc45d",
+                "bc1a0d80-c6ac-11ea-a1d6-919089dfc45d"
+            ],
+            "backgroundColor": {
+                "r": 255,
+                "g": 152,
+                "b": 1,
+                "a": 1
+            },
+            "show": true,
+            "guidCursor": 0,
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false
+                }
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "GUID": "05b8e040-c6af-11ea-a1d6-919089dfc45d",
+            "name": "fk pessoas.cpf to vendas.vendedor",
+            "description": "",
+            "comments": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+            "parentField": [
+                [
+                    "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+                    "786a5da0-c6ad-11ea-a1d6-919089dfc45d"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "90bfe0b0-c6ac-11ea-a1d6-919089dfc45d",
+            "childField": [
+                [
+                    "90bfe0b0-c6ac-11ea-a1d6-919089dfc45d",
+                    "ebf3bd10-c6ae-11ea-a1d6-919089dfc45d"
+                ]
+            ],
+            "childCardinality": "n"
+        },
+        {
+            "GUID": "6d1c7760-c6af-11ea-a1d6-919089dfc45d",
+            "name": "fk pessoas.cpf to compras.comprador",
+            "description": "",
+            "comments": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+            "parentField": [
+                [
+                    "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+                    "786a5da0-c6ad-11ea-a1d6-919089dfc45d"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "b3051230-c6ac-11ea-a1d6-919089dfc45d",
+            "childField": [
+                [
+                    "b3051230-c6ac-11ea-a1d6-919089dfc45d",
+                    "5c41bd10-c6af-11ea-a1d6-919089dfc45d"
+                ]
+            ],
+            "childCardinality": "n"
+        }
+    ],
+    "users": [],
+    "idToNameHashTable": {
+        "81a748c0-c6ac-11ea-a1d6-919089dfc45d": "operacoes",
+        "90bfe0b0-c6ac-11ea-a1d6-919089dfc45d": "vendas",
+        "a9087600-c6ac-11ea-a1d6-919089dfc45d": "pessoas",
+        "b3051230-c6ac-11ea-a1d6-919089dfc45d": "compras",
+        "bc1a0d80-c6ac-11ea-a1d6-919089dfc45d": "marketing",
+        "ee87c050-c6ac-11ea-a1d6-919089dfc45d": "_id",
+        "fabe1fe0-c6ac-11ea-a1d6-919089dfc45d": "valor",
+        "15435ec0-c6ad-11ea-a1d6-919089dfc45d": "nf",
+        "310cdd70-c6ad-11ea-a1d6-919089dfc45d": "produto",
+        "6853b6a0-c6ad-11ea-a1d6-919089dfc45d": "_id",
+        "786a5da0-c6ad-11ea-a1d6-919089dfc45d": "cpf",
+        "82e4dc60-c6ad-11ea-a1d6-919089dfc45d": "email",
+        "86f0a0a0-c6ad-11ea-a1d6-919089dfc45d": "endereco",
+        "923d8a90-c6ad-11ea-a1d6-919089dfc45d": "_id",
+        "9a6b3320-c6ad-11ea-a1d6-919089dfc45d": "data",
+        "ac9eedc0-c6ad-11ea-a1d6-919089dfc45d": "valor",
+        "b8707100-c6ad-11ea-a1d6-919089dfc45d": "nota_fiscal",
+        "c526fd10-c6ad-11ea-a1d6-919089dfc45d": "_id",
+        "ce9e63b0-c6ad-11ea-a1d6-919089dfc45d": "data",
+        "d3b68ee0-c6ad-11ea-a1d6-919089dfc45d": "produtos",
+        "62e18f20-c6ae-11ea-a1d6-919089dfc45d": "campanha",
+        "ebf3bd10-c6ae-11ea-a1d6-919089dfc45d": "vendedor",
+        "05b8e040-c6af-11ea-a1d6-919089dfc45d": "fk pessoas.cpf to vendas.vendedor",
+        "5c41bd10-c6af-11ea-a1d6-919089dfc45d": "comprador",
+        "6d1c7760-c6af-11ea-a1d6-919089dfc45d": "fk pessoas.cpf to compras.comprador",
+        "56834a50-c6b0-11ea-a1d6-919089dfc45d": "logradouro",
+        "61cb2b30-c6b0-11ea-a1d6-919089dfc45d": "numero",
+        "6d0a5980-c6b0-11ea-a1d6-919089dfc45d": "complemento",
+        "74d8a400-c6b0-11ea-a1d6-919089dfc45d": "bairro",
+        "7de9a7b0-c6b0-11ea-a1d6-919089dfc45d": "cidade",
+        "825f7860-c6b0-11ea-a1d6-919089dfc45d": "estado",
+        "d1f9bc50-c6b0-11ea-a1d6-919089dfc45d": "pais",
+        "efe99d70-c6b0-11ea-a1d6-919089dfc45d": "itens"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "7c883fc0-c6ac-11ea-a1d6-919089dfc45d"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "7c883fc1-c6ac-11ea-a1d6-919089dfc45d"
+    },
+    "decorativeSymbols": [],
+    "dbVersion": "v4.4",
+    "dbVendor": "MongoDB",
+    "hideModelViews": true,
+    "appTarget": "MONGODB",
+    "creationTS": "2020-07-15T15:04:31.419Z",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "4.1.9"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "90bfe0b0-c6ac-11ea-a1d6-919089dfc45d",
+                        "x": 121,
+                        "y": 96,
+                        "width": 284,
+                        "height": 128,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "a9087600-c6ac-11ea-a1d6-919089dfc45d",
+                        "x": 133,
+                        "y": 237,
+                        "width": 264,
+                        "height": 184,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "b3051230-c6ac-11ea-a1d6-919089dfc45d",
+                        "x": 124,
+                        "y": 470,
+                        "width": 251,
+                        "height": 100,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "bc1a0d80-c6ac-11ea-a1d6-919089dfc45d",
+                        "x": 118,
+                        "y": 604,
+                        "width": 262,
+                        "height": 130,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 78,
+                        "y": 56,
+                        "GUID": "81a748c0-c6ac-11ea-a1d6-919089dfc45d"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false,
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false,
+            "shouldDistributeCollections": false
+        }
+    }
+}

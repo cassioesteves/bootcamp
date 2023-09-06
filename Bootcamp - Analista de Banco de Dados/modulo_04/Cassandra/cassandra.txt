@@ -1,0 +1,46 @@
+create keyspace igti with replication = {'class': 'SimpleStrategy', 'replication_factor':1}: 
+and durable_writes = true;
+
+create table pessoas (id int primary key, nome text, sobrenome text);
+
+describe table pessoas;
+
+select * from pessoas;
+
+ALTER TABLE pessoas ADD email text;
+
+ALTER TABLE pessoas ADD endereco text;
+
+insert into pessoas (id, nome, sobrenome, email, endereco) values (1, 'cassio', 'esteves', 'cassio.esteves@hotmail.com', 'sao paulo');
+
+select * from pessoas;
+
+update pessoas set nome = 'mariana' where id = 2;
+
+update pessoas set endereco = 'sao paulo' where id  = 1;
+
+insert into pessoas (id, nome, sobrenome, email, endereco) values (2, 'mariana', 'nike', 'nike@hotmail.com', 'vitoria');
+
+insert into pessoas (id, nome, sobrenome, email, endereco) values (3, 'cavalo', 'doido', 'cavalo.doido@hotmail.com', 'in roça');
+
+insert into pessoas (id, nome, sobrenome, email, endereco) values (4, 'scooby', 'doo', '@hotmail.com', 'personagem');
+
+insert into pessoas (id, nome, sobrenome, email, endereco) values (5, 'scooby', 'doo', '@hotmail.com', 'personagem');
+
+delete from pessoas where id = 5;
+
+select * from pessoas;
+
+create table dados (nome text primary key, contatos list <text>);
+
+insert into dados (nome, contatos) values ('CE',['dev.cesteves@gmail.com','11966695313']);
+
+select * from dados;
+
+update dados set contatos = contatos +['dev.cesteves@gmail.com'] where nome = 'CE';
+
+create table enderecos (nome text primary key, endereco map <text,text>);
+
+insert into enderecos (nome, endereco) values ('cassio', {'rua': 'abc','numero': '22', 'bairro': 'centro'});
+
+select * from enderecos;

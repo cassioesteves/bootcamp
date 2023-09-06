@@ -1,0 +1,915 @@
+{
+    "GUID": "4e58c860-cac9-11ea-85ae-01c48d0985fa",
+    "modelName": "New model",
+    "code": "",
+    "lastModifTS": "2020-07-24T07:34:41.944Z",
+    "persistenceSchemaVersion": "4",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "collections": [
+        {
+            "GUID": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+            "collectionName": "vendas",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "enum": [],
+                    "sample": "",
+                    "pattern": "",
+                    "comments": "",
+                    "childType": "uuid",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "a4ca2590-cac9-11ea-85ae-01c48d0985fa",
+                    "name": "venda_id",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false,
+                        "static": false
+                    },
+                    "static": false
+                },
+                {
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "7907dd90-cac8-11ea-85ae-01c48d0985fa",
+                    "childRelationships": [],
+                    "foreignCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "foreignField": [
+                        "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                        "a02452f0-cac3-11ea-85ae-01c48d0985fa"
+                    ],
+                    "enum": [],
+                    "mode": "integer",
+                    "sample": "",
+                    "childType": "numeric",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "81662550-cac3-11ea-85ae-01c48d0985fa",
+                    "name": "valor_venda",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "pattern": ""
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [
+                        "2e87e7b0-cac8-11ea-85ae-01c48d0985fa",
+                        "7907dd90-cac8-11ea-85ae-01c48d0985fa",
+                        "a1148d10-cac8-11ea-85ae-01c48d0985fa"
+                    ],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "a02452f0-cac3-11ea-85ae-01c48d0985fa",
+                    "name": "nome_produto_vendido",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "2e87e7b0-cac8-11ea-85ae-01c48d0985fa",
+                    "childRelationships": [
+                        "815961d0-cac8-11ea-85ae-01c48d0985fa",
+                        "afe17600-cac8-11ea-85ae-01c48d0985fa"
+                    ],
+                    "foreignCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "foreignField": [
+                        "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                        "a02452f0-cac3-11ea-85ae-01c48d0985fa"
+                    ],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "b5e15b60-cac3-11ea-85ae-01c48d0985fa",
+                    "name": "data_venda",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "815961d0-cac8-11ea-85ae-01c48d0985fa",
+                    "childRelationships": [],
+                    "foreignCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "foreignField": [
+                        "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                        "b5e15b60-cac3-11ea-85ae-01c48d0985fa"
+                    ],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "c52e97e0-cac3-11ea-85ae-01c48d0985fa",
+                    "name": "filial",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "57fb1e50-cac3-11ea-85ae-01c48d0985fa"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "562ee9d0-cac3-11ea-85ae-01c48d0985fa",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "e8c5c4d0-cac3-11ea-85ae-01c48d0985fa",
+            "collectionName": "compras",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "enum": [],
+                    "sample": "",
+                    "pattern": "",
+                    "comments": "",
+                    "childType": "uuid",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "dd8fa0c0-cacf-11ea-b7c1-03e94863f8d3",
+                    "name": "compra_id",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "a1148d10-cac8-11ea-85ae-01c48d0985fa",
+                    "childRelationships": [],
+                    "foreignCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "foreignField": [
+                        "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                        "a02452f0-cac3-11ea-85ae-01c48d0985fa"
+                    ],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "12f7c550-cac4-11ea-85ae-01c48d0985fa",
+                    "name": "valor_compra",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "1da7abf0-cac4-11ea-85ae-01c48d0985fa",
+                    "name": "produto_comprado",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "2a91cb20-cac4-11ea-85ae-01c48d0985fa",
+                    "name": "nome_vendedor",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "afe17600-cac8-11ea-85ae-01c48d0985fa",
+                    "childRelationships": [],
+                    "foreignCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "foreignField": [
+                        "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                        "b5e15b60-cac3-11ea-85ae-01c48d0985fa"
+                    ],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "32848d90-cac4-11ea-85ae-01c48d0985fa",
+                    "name": "nome_comprador",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e8c96e50-cac3-11ea-85ae-01c48d0985fa"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "562ee9d0-cac3-11ea-85ae-01c48d0985fa",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "3e892ec0-cac4-11ea-85ae-01c48d0985fa",
+            "collectionName": "propagandas",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "enum": [],
+                    "sample": "",
+                    "pattern": "",
+                    "comments": "",
+                    "childType": "uuid",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "ece568c0-cacf-11ea-b7c1-03e94863f8d3",
+                    "name": "propaganda_id",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "Foreign Key",
+                    "parentRelationship": "260a06d0-cac9-11ea-85ae-01c48d0985fa",
+                    "childRelationships": [],
+                    "foreignCollection": "3e892ec0-cac4-11ea-85ae-01c48d0985fa",
+                    "foreignField": [
+                        "3e892ec0-cac4-11ea-85ae-01c48d0985fa",
+                        "2c2355b0-cac6-11ea-85ae-01c48d0985fa"
+                    ],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "4f03a0a0-cac4-11ea-85ae-01c48d0985fa",
+                    "name": "nome_campanha",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "default": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "pattern": "",
+                    "format": "",
+                    "childType": "date",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "5cca8b40-cac4-11ea-85ae-01c48d0985fa",
+                    "name": "data_inicio_campanha",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "default": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "pattern": "",
+                    "format": "",
+                    "childType": "date",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "6a58b2a0-cac4-11ea-85ae-01c48d0985fa",
+                    "name": "data_finalizacao_campanha",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "primaryKey": false,
+                    "relationshipType": "",
+                    "parentRelationship": "",
+                    "childRelationships": [
+                        "260a06d0-cac9-11ea-85ae-01c48d0985fa"
+                    ],
+                    "foreignCollection": "",
+                    "foreignField": [],
+                    "default": "",
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "mode": "text",
+                    "childType": "char",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositePartitionKey",
+                        "compositeClusteringKey"
+                    ],
+                    "compositePartitionKey": false,
+                    "compositeClusteringKey": false,
+                    "GUID": "2c2355b0-cac6-11ea-85ae-01c48d0985fa",
+                    "name": "publico_alvo",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "3e8c6310-cac4-11ea-85ae-01c48d0985fa"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "562ee9d0-cac3-11ea-85ae-01c48d0985fa",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "562ee9d0-cac3-11ea-85ae-01c48d0985fa",
+            "name": "Projeto_2_sistema_analitico",
+            "code": "",
+            "type": "bucket",
+            "description": "",
+            "comments": "",
+            "collectionIds": [
+                "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                "e8c5c4d0-cac3-11ea-85ae-01c48d0985fa",
+                "3e892ec0-cac4-11ea-85ae-01c48d0985fa"
+            ],
+            "backgroundColor": {
+                "r": 216,
+                "g": 0,
+                "b": 115,
+                "a": 1
+            },
+            "show": true,
+            "indexes": [],
+            "replStrategy": "SimpleStrategy",
+            "addToCqlScript": true,
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false
+                }
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "GUID": "2e87e7b0-cac8-11ea-85ae-01c48d0985fa",
+            "name": "fk vendas.nome_produto_vendido to vendas.data_venda",
+            "description": "",
+            "comments": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+            "parentField": [
+                [
+                    "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "a02452f0-cac3-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "",
+            "childField": [],
+            "childCardinality": "1"
+        },
+        {
+            "GUID": "7907dd90-cac8-11ea-85ae-01c48d0985fa",
+            "name": "fk vendas.nome_produto_vendido to vendas.valor_venda",
+            "description": "",
+            "comments": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+            "parentField": [
+                [
+                    "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "a02452f0-cac3-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+            "childField": [
+                [
+                    "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "81662550-cac3-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "childCardinality": "1"
+        },
+        {
+            "GUID": "815961d0-cac8-11ea-85ae-01c48d0985fa",
+            "name": "fk vendas.data_venda to vendas.filial",
+            "description": "",
+            "comments": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+            "parentField": [
+                [
+                    "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "b5e15b60-cac3-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+            "childField": [
+                [
+                    "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "c52e97e0-cac3-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "childCardinality": "1"
+        },
+        {
+            "GUID": "a1148d10-cac8-11ea-85ae-01c48d0985fa",
+            "name": "fk vendas.nome_produto_vendido to compras.valor_compra",
+            "description": "",
+            "comments": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+            "parentField": [
+                [
+                    "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "a02452f0-cac3-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "parentCardinality": "1..n",
+            "childCollection": "e8c5c4d0-cac3-11ea-85ae-01c48d0985fa",
+            "childField": [
+                [
+                    "e8c5c4d0-cac3-11ea-85ae-01c48d0985fa",
+                    "12f7c550-cac4-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "childCardinality": "1"
+        },
+        {
+            "GUID": "afe17600-cac8-11ea-85ae-01c48d0985fa",
+            "name": "fk vendas.data_venda to compras.nome_comprador",
+            "description": "",
+            "comments": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+            "parentField": [
+                [
+                    "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                    "b5e15b60-cac3-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "e8c5c4d0-cac3-11ea-85ae-01c48d0985fa",
+            "childField": [
+                [
+                    "e8c5c4d0-cac3-11ea-85ae-01c48d0985fa",
+                    "32848d90-cac4-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "childCardinality": "1..n"
+        },
+        {
+            "GUID": "260a06d0-cac9-11ea-85ae-01c48d0985fa",
+            "name": "fk propagandas.publico_alvo to propagandas.nome_campanha",
+            "description": "",
+            "comments": "",
+            "relationshipType": "Foreign Key",
+            "parentCollection": "3e892ec0-cac4-11ea-85ae-01c48d0985fa",
+            "parentField": [
+                [
+                    "3e892ec0-cac4-11ea-85ae-01c48d0985fa",
+                    "2c2355b0-cac6-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "parentCardinality": "1",
+            "childCollection": "3e892ec0-cac4-11ea-85ae-01c48d0985fa",
+            "childField": [
+                [
+                    "3e892ec0-cac4-11ea-85ae-01c48d0985fa",
+                    "4f03a0a0-cac4-11ea-85ae-01c48d0985fa"
+                ]
+            ],
+            "childCardinality": "1"
+        }
+    ],
+    "users": [],
+    "idToNameHashTable": {
+        "562ee9d0-cac3-11ea-85ae-01c48d0985fa": "Projeto_2_sistema_analitico",
+        "57f7ea00-cac3-11ea-85ae-01c48d0985fa": "vendas",
+        "81662550-cac3-11ea-85ae-01c48d0985fa": "valor_venda",
+        "a02452f0-cac3-11ea-85ae-01c48d0985fa": "nome_produto_vendido",
+        "b5e15b60-cac3-11ea-85ae-01c48d0985fa": "data_venda",
+        "c52e97e0-cac3-11ea-85ae-01c48d0985fa": "filial",
+        "e4907f90-cac3-11ea-85ae-01c48d0985fa": "New keyspace",
+        "e8c5c4d0-cac3-11ea-85ae-01c48d0985fa": "compras",
+        "12f7c550-cac4-11ea-85ae-01c48d0985fa": "valor_compra",
+        "1da7abf0-cac4-11ea-85ae-01c48d0985fa": "produto_comprado",
+        "2a91cb20-cac4-11ea-85ae-01c48d0985fa": "nome_vendedor",
+        "32848d90-cac4-11ea-85ae-01c48d0985fa": "nome_comprador",
+        "3e892ec0-cac4-11ea-85ae-01c48d0985fa": "propagandas",
+        "4f03a0a0-cac4-11ea-85ae-01c48d0985fa": "nome_campanha",
+        "5cca8b40-cac4-11ea-85ae-01c48d0985fa": "data_inicio_campanha",
+        "6a58b2a0-cac4-11ea-85ae-01c48d0985fa": "data_finalizacao_campanha",
+        "2c2355b0-cac6-11ea-85ae-01c48d0985fa": "publico_alvo",
+        "2e87e7b0-cac8-11ea-85ae-01c48d0985fa": "fk vendas.nome_produto_vendido to vendas.data_venda",
+        "7907dd90-cac8-11ea-85ae-01c48d0985fa": "fk vendas.nome_produto_vendido to vendas.valor_venda",
+        "815961d0-cac8-11ea-85ae-01c48d0985fa": "fk vendas.data_venda to vendas.filial",
+        "a1148d10-cac8-11ea-85ae-01c48d0985fa": "fk vendas.nome_produto_vendido to compras.valor_compra",
+        "afe17600-cac8-11ea-85ae-01c48d0985fa": "fk vendas.data_venda to compras.nome_comprador",
+        "260a06d0-cac9-11ea-85ae-01c48d0985fa": "fk propagandas.publico_alvo to propagandas.nome_campanha",
+        "a4ca2590-cac9-11ea-85ae-01c48d0985fa": "venda_id",
+        "dd8fa0c0-cacf-11ea-b7c1-03e94863f8d3": "compra_id",
+        "ece568c0-cacf-11ea-b7c1-03e94863f8d3": "propaganda_id"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "50ba46c0-cac3-11ea-85ae-01c48d0985fa"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "50ba46c1-cac3-11ea-85ae-01c48d0985fa"
+    },
+    "decorativeSymbols": [],
+    "dbVersion": "3.1.x",
+    "dbVendor": "Cassandra",
+    "appTarget": "CASSANDRA",
+    "creationTS": "2020-07-20T19:58:01.003Z",
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Cassandra",
+        "pluginVersion": "0.1.46",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "4.1.10"
+    },
+    "hackoladeMeta": {},
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "57f7ea00-cac3-11ea-85ae-01c48d0985fa",
+                        "x": 148,
+                        "y": 173,
+                        "width": 295,
+                        "height": 98,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "e8c5c4d0-cac3-11ea-85ae-01c48d0985fa",
+                        "x": 167,
+                        "y": 341,
+                        "width": 238,
+                        "height": 99,
+                        "color": {}
+                    },
+                    {
+                        "GUID": "3e892ec0-cac4-11ea-85ae-01c48d0985fa",
+                        "x": 176,
+                        "y": 500,
+                        "width": 283,
+                        "height": 99,
+                        "color": {}
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 108,
+                        "y": 133,
+                        "GUID": "562ee9d0-cac3-11ea-85ae-01c48d0985fa"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "a1148d10-cac8-11ea-85ae-01c48d0985fa",
+                "selectedCollections": [],
+                "decorativeSymbols": [],
+                "graphView": {
+                    "erd": [],
+                    "buckets": [],
+                    "decorativeSymbols": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false,
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "displayColorPicker": false,
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false,
+            "shouldDistributeCollections": false
+        }
+    }
+}

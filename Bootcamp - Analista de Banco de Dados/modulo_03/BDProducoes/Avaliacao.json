@@ -1,0 +1,22 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Avaliacao",
+    "additionalProperties": false,
+    "properties": {
+        "classificacao_media": {
+            "type": "number"
+        },
+        "cod_titulo": {
+            "type": "number"
+        },
+        "qtd_votos": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "classificacao_media",
+        "cod_titulo",
+        "qtd_votos"
+    ]
+}

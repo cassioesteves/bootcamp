@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Firebase Realtime Database Quickstart</title>
+</head>
+<body>
+<h1 id="CabTeste"></h1>
+<script src="https://www.gstatic.com/firebasejs/5.10.1/firebase.js"></script>
+<script>
+// Initialize Firebase
+var config = {
+apiKey: "AIzaSyB-tcS-8tzQ-Vu9iby2ElSrxOVSAEHYz1A",
+authDomain: "demoppd-50a47.firebaseapp.com",
+databaseURL: "https://demoppd-50a47.firebaseio.com",
+projectId: "demoppd-50a47",
+storageBucket: "demoppd-50a47.appspot.com",
+Bootcamp Analista de Banco de Dados – Página 92 de 145
+messagingSenderId: "774204272250"
+};
+firebase.initializeApp(config);
+var CabTeste = document.getElementById('CabTeste');
+var dbRef = firebase.database().ref().child('textoteste');
+dbRef.on('value', snap => CabTeste.innerText = snap.val());
+</script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Pessoa",
+    "additionalProperties": false,
+    "properties": {
+        "nom_pessoa": {
+            "type": "string",
+            "maxLength": 500
+        },
+        "ano_nascimento": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "cod_pessoa": {
+            "type": "number"
+        },
+        "ano_falescimento": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "dsc_profissao": {
+            "type": "string",
+            "maxLength": 1000
+        }
+    },
+    "required": [
+        "nom_pessoa"
+    ]
+}

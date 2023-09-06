@@ -1,0 +1,1033 @@
+{
+    "GUID": "a995dba0-cd80-11ea-99bc-91a8ac92f343",
+    "modelName": "DB",
+    "code": "",
+    "lastModifTS": "2020-07-26T20:26:52.514Z",
+    "persistenceSchemaVersion": "4",
+    "description": "",
+    "comments": "",
+    "author": "",
+    "version": "",
+    "collections": [
+        {
+            "GUID": "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+            "collectionName": "LEGISLADORES",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "b0b41990-cd8c-11ea-99bc-91a8ac92f343",
+                    "name": "NOME",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "9596e070-cd8c-11ea-99bc-91a8ac92f343"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "bd08d690-cd8c-11ea-99bc-91a8ac92f343",
+            "collectionName": "PARTIDOS",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "c5c4dc70-cd8c-11ea-99bc-91a8ac92f343",
+                    "name": "DESCRICAO",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "bd0ef110-cd8c-11ea-99bc-91a8ac92f343"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "cfa62870-cd8c-11ea-99bc-91a8ac92f343",
+            "collectionName": "BANCADA",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "93c7a940-cd8d-11ea-99bc-91a8ac92f343",
+                    "name": "TEMA",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "cfac42f0-cd8c-11ea-99bc-91a8ac92f343"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "d8119d50-cd8c-11ea-99bc-91a8ac92f343",
+            "collectionName": "ESTADO",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "84c5f4b0-cd8d-11ea-99bc-91a8ac92f343",
+                    "name": "UF",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "d817b7d0-cd8c-11ea-99bc-91a8ac92f343"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "e978e030-cd8c-11ea-99bc-91a8ac92f343",
+            "collectionName": "COMISSAO",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "8c1c01f0-cd8d-11ea-99bc-91a8ac92f343",
+                    "name": "ASSUNTO",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "e9811d90-cd8c-11ea-99bc-91a8ac92f343"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "a2e179b0-cd8d-11ea-99bc-91a8ac92f343",
+            "collectionName": "IMPOSTOS",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "unit": "",
+                    "minimum": "",
+                    "exclusiveMinimum": false,
+                    "maximum": "",
+                    "exclusiveMaximum": false,
+                    "multipleOf": "",
+                    "divisibleBy": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "mode": "",
+                    "sample": "",
+                    "unique": false,
+                    "childType": "number",
+                    "type": "numeric",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "ab2605a0-cd8d-11ea-99bc-91a8ac92f343",
+                    "name": "ALIQUOTA",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {}
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "a2e91ad0-cd8d-11ea-99bc-91a8ac92f343"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "c9e39700-cd8d-11ea-99bc-91a8ac92f343",
+            "collectionName": "LEI",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "d1c123c0-cd8d-11ea-99bc-91a8ac92f343",
+                    "name": "NUMERO",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "daf19650-cd8d-11ea-99bc-91a8ac92f343",
+                    "name": "TEXTO",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "c9e9ffa0-cd8d-11ea-99bc-91a8ac92f343"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        },
+        {
+            "GUID": "f98c5d70-cd8d-11ea-99bc-91a8ac92f343",
+            "collectionName": "PLENARIO",
+            "code": "",
+            "type": "object",
+            "description": "",
+            "comments": "",
+            "$schema": "",
+            "additionalProperties": false,
+            "properties": [
+                {
+                    "primaryKey": false,
+                    "default": "",
+                    "enum": [],
+                    "sample": "",
+                    "comments": "",
+                    "pattern": "",
+                    "format": "",
+                    "unique": false,
+                    "childType": "temporal",
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "0fe16020-cd8e-11ea-99bc-91a8ac92f343",
+                    "name": "DATA",
+                    "code": "",
+                    "description": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                },
+                {
+                    "minLength": "",
+                    "maxLength": "",
+                    "pattern": "",
+                    "default": "",
+                    "primaryKey": false,
+                    "enum": [],
+                    "sample": "",
+                    "unique": false,
+                    "type": "string",
+                    "compositeKey": [
+                        "compositeNodeKey"
+                    ],
+                    "compositeNodeKey": false,
+                    "GUID": "18756ba0-cd8e-11ea-99bc-91a8ac92f343",
+                    "name": "SESSAO",
+                    "code": "",
+                    "description": "",
+                    "comments": "",
+                    "dependencies": [],
+                    "required": false,
+                    "id": "",
+                    "hackoladeMeta": {},
+                    "error": {
+                        "name": false
+                    }
+                }
+            ],
+            "definitions": {
+                "type": "definitions",
+                "properties": [],
+                "GUID": "f99250e0-cd8d-11ea-99bc-91a8ac92f343"
+            },
+            "collectionUsers": [],
+            "collation": {},
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "collectionName": false
+                }
+            }
+        }
+    ],
+    "buckets": [
+        {
+            "GUID": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "name": "CONGRESSO",
+            "code": "",
+            "type": "bucket",
+            "description": "",
+            "comments": "",
+            "collectionIds": [
+                "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+                "bd08d690-cd8c-11ea-99bc-91a8ac92f343",
+                "cfa62870-cd8c-11ea-99bc-91a8ac92f343",
+                "d8119d50-cd8c-11ea-99bc-91a8ac92f343",
+                "e978e030-cd8c-11ea-99bc-91a8ac92f343",
+                "a2e179b0-cd8d-11ea-99bc-91a8ac92f343",
+                "c9e39700-cd8d-11ea-99bc-91a8ac92f343",
+                "f98c5d70-cd8d-11ea-99bc-91a8ac92f343"
+            ],
+            "backgroundColor": {
+                "r": 51,
+                "g": 51,
+                "b": 51,
+                "a": 1
+            },
+            "show": true,
+            "indexes": [],
+            "guidCursor": 0,
+            "hackoladeMeta": {
+                "validationErrors": {
+                    "name": false
+                }
+            }
+        }
+    ],
+    "views": [],
+    "relationships": [
+        {
+            "GUID": "f08b69e0-cd8e-11ea-99bc-91a8ac92f343",
+            "name": "LEGISLADORES to New node label",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": null,
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "f08a7f80-cd8e-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "properties": []
+        },
+        {
+            "GUID": "f12279c0-cd8e-11ea-99bc-91a8ac92f343",
+            "name": "MEMBRO",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "bd08d690-cd8c-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "biDirectional": true,
+            "properties": []
+        },
+        {
+            "GUID": "f122c7e0-cd8e-11ea-99bc-91a8ac92f343",
+            "name": "PARTICIPA",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "cfa62870-cd8c-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "properties": []
+        },
+        {
+            "GUID": "f1238b30-cd8e-11ea-99bc-91a8ac92f343",
+            "name": "ELEITO",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "d8119d50-cd8c-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "properties": []
+        },
+        {
+            "GUID": "68c77160-cd8f-11ea-99bc-91a8ac92f343",
+            "name": "VOTO",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "a2e179b0-cd8d-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "properties": []
+        },
+        {
+            "GUID": "90c023b0-cd8f-11ea-99bc-91a8ac92f343",
+            "name": "ESPECIFICADO",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "a2e179b0-cd8d-11ea-99bc-91a8ac92f343",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "c9e39700-cd8d-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "properties": []
+        },
+        {
+            "GUID": "a3059190-cd8f-11ea-99bc-91a8ac92f343",
+            "name": "DISCUTIDA",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "c9e39700-cd8d-11ea-99bc-91a8ac92f343",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "e978e030-cd8c-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "properties": []
+        },
+        {
+            "GUID": "bde8a7e0-cd8f-11ea-99bc-91a8ac92f343",
+            "name": "VOTADA",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "c9e39700-cd8d-11ea-99bc-91a8ac92f343",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "f98c5d70-cd8d-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "properties": []
+        },
+        {
+            "GUID": "de190320-cd8f-11ea-99bc-91a8ac92f343",
+            "name": "DISCUTE",
+            "description": "",
+            "comments": "",
+            "relationshipType": "",
+            "parentCollection": "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+            "parentField": [],
+            "parentCardinality": "1",
+            "childCollection": "e978e030-cd8c-11ea-99bc-91a8ac92f343",
+            "childField": [],
+            "childCardinality": "1",
+            "level": "entity",
+            "lineSize": 2,
+            "bucketId": "929cb340-cd8c-11ea-99bc-91a8ac92f343",
+            "properties": []
+        }
+    ],
+    "users": [],
+    "idToNameHashTable": {
+        "929cb340-cd8c-11ea-99bc-91a8ac92f343": "CONGRESSO",
+        "959029b0-cd8c-11ea-99bc-91a8ac92f343": "LEGISLADORES",
+        "b0b41990-cd8c-11ea-99bc-91a8ac92f343": "NOME",
+        "bd08d690-cd8c-11ea-99bc-91a8ac92f343": "PARTIDOS",
+        "c5c4dc70-cd8c-11ea-99bc-91a8ac92f343": "DESCRICAO",
+        "cfa62870-cd8c-11ea-99bc-91a8ac92f343": "BANCADA",
+        "d8119d50-cd8c-11ea-99bc-91a8ac92f343": "ESTADO",
+        "e978e030-cd8c-11ea-99bc-91a8ac92f343": "COMISSAO",
+        "84c5f4b0-cd8d-11ea-99bc-91a8ac92f343": "UF",
+        "8c1c01f0-cd8d-11ea-99bc-91a8ac92f343": "ASSUNTO",
+        "93c7a940-cd8d-11ea-99bc-91a8ac92f343": "TEMA",
+        "a2e179b0-cd8d-11ea-99bc-91a8ac92f343": "IMPOSTOS",
+        "ab2605a0-cd8d-11ea-99bc-91a8ac92f343": "ALIQUOTA",
+        "c9e39700-cd8d-11ea-99bc-91a8ac92f343": "LEI",
+        "d1c123c0-cd8d-11ea-99bc-91a8ac92f343": "NUMERO",
+        "daf19650-cd8d-11ea-99bc-91a8ac92f343": "TEXTO",
+        "f98c5d70-cd8d-11ea-99bc-91a8ac92f343": "PLENARIO",
+        "0fe16020-cd8e-11ea-99bc-91a8ac92f343": "DATA",
+        "18756ba0-cd8e-11ea-99bc-91a8ac92f343": "SESSAO",
+        "f08b69e0-cd8e-11ea-99bc-91a8ac92f343": "LEGISLADORES to New node label",
+        "f12279c0-cd8e-11ea-99bc-91a8ac92f343": "MEMBRO",
+        "f122c7e0-cd8e-11ea-99bc-91a8ac92f343": "PARTICIPA",
+        "f1238b30-cd8e-11ea-99bc-91a8ac92f343": "ELEITO",
+        "68c77160-cd8f-11ea-99bc-91a8ac92f343": "VOTO",
+        "90c023b0-cd8f-11ea-99bc-91a8ac92f343": "ESPECIFICADO",
+        "a3059190-cd8f-11ea-99bc-91a8ac92f343": "DISCUTIDA",
+        "bde8a7e0-cd8f-11ea-99bc-91a8ac92f343": "VOTADA",
+        "de190320-cd8f-11ea-99bc-91a8ac92f343": "DISCUTE"
+    },
+    "definitions": {
+        "type": "definitions",
+        "properties": [],
+        "GUID": "a99602b0-cd80-11ea-99bc-91a8ac92f343"
+    },
+    "externalDefinitions": {
+        "type": "externalDefinitions",
+        "properties": [],
+        "GUID": "a99602b1-cd80-11ea-99bc-91a8ac92f343"
+    },
+    "decorativeSymbols": [],
+    "dbVersion": "3.x",
+    "dbVendor": "Neo4j",
+    "appTarget": "NEO4J",
+    "creationTS": "2020-07-24T07:38:27.289Z",
+    "hackoladeMeta": {
+        "validationErrors": {
+            "modelName": false
+        }
+    },
+    "isCreatedByPlugin": true,
+    "pluginInformation": {
+        "pluginName": "Neo4j",
+        "pluginVersion": "0.1.19",
+        "pluginEngineVersion": "1.0.0"
+    },
+    "applicationInformation": {
+        "version": "4.1.10"
+    },
+    "settings": {
+        "centralPane": {
+            "dbLevel": {
+                "erd": [
+                    {
+                        "GUID": "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+                        "x": 407,
+                        "y": 81,
+                        "width": 166,
+                        "height": 75,
+                        "color": {
+                            "hsl": {
+                                "h": 45.18218623481781,
+                                "s": 0.9919678714859438,
+                                "l": 0.5117647058823529,
+                                "a": 1
+                            },
+                            "hex": "#fec107",
+                            "rgb": {
+                                "r": 254,
+                                "g": 193,
+                                "b": 7,
+                                "a": 1
+                            },
+                            "hsv": {
+                                "h": 45.18218623481781,
+                                "s": 0.9724409448818897,
+                                "v": 0.996078431372549,
+                                "a": 1
+                            },
+                            "oldHue": 206.57142857142858,
+                            "source": "hex"
+                        }
+                    },
+                    {
+                        "GUID": "bd08d690-cd8c-11ea-99bc-91a8ac92f343",
+                        "x": 395,
+                        "y": 251,
+                        "width": 183,
+                        "height": 80,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "cfa62870-cd8c-11ea-99bc-91a8ac92f343",
+                        "x": 156,
+                        "y": 512,
+                        "width": 150,
+                        "height": 99,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "d8119d50-cd8c-11ea-99bc-91a8ac92f343",
+                        "x": 388,
+                        "y": 530,
+                        "width": 133,
+                        "height": 96,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "e978e030-cd8c-11ea-99bc-91a8ac92f343",
+                        "x": 80,
+                        "y": 381,
+                        "width": 173,
+                        "height": 86,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "a2e179b0-cd8d-11ea-99bc-91a8ac92f343",
+                        "x": 391,
+                        "y": 653,
+                        "width": 188,
+                        "height": 119,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "c9e39700-cd8d-11ea-99bc-91a8ac92f343",
+                        "x": 154,
+                        "y": 653,
+                        "width": 171,
+                        "height": 120,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "f98c5d70-cd8d-11ea-99bc-91a8ac92f343",
+                        "x": 395,
+                        "y": 366,
+                        "width": 170,
+                        "height": 103,
+                        "color": {
+                            "hex": "#2196F3"
+                        }
+                    },
+                    {
+                        "GUID": "f08b69e0-cd8e-11ea-99bc-91a8ac92f343",
+                        "x": 60,
+                        "y": 60,
+                        "width": 240,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f12279c0-cd8e-11ea-99bc-91a8ac92f343",
+                        "x": 40,
+                        "y": 40,
+                        "width": 134,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f122c7e0-cd8e-11ea-99bc-91a8ac92f343",
+                        "x": 80,
+                        "y": 80,
+                        "width": 139,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "f1238b30-cd8e-11ea-99bc-91a8ac92f343",
+                        "x": 100,
+                        "y": 100,
+                        "width": 120,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "68c77160-cd8f-11ea-99bc-91a8ac92f343",
+                        "x": 120,
+                        "y": 120,
+                        "width": 114,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "90c023b0-cd8f-11ea-99bc-91a8ac92f343",
+                        "x": 140,
+                        "y": 140,
+                        "width": 162,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "a3059190-cd8f-11ea-99bc-91a8ac92f343",
+                        "x": 160,
+                        "y": 160,
+                        "width": 143,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "bde8a7e0-cd8f-11ea-99bc-91a8ac92f343",
+                        "x": 180,
+                        "y": 180,
+                        "width": 129,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    },
+                    {
+                        "GUID": "de190320-cd8f-11ea-99bc-91a8ac92f343",
+                        "x": 200,
+                        "y": 200,
+                        "width": 130,
+                        "height": 100,
+                        "color": {
+                            "hex": "#333333"
+                        }
+                    }
+                ],
+                "buckets": [
+                    {
+                        "x": 0,
+                        "y": 0,
+                        "GUID": "929cb340-cd8c-11ea-99bc-91a8ac92f343"
+                    }
+                ],
+                "collapsedNodes": [],
+                "activeRelationship": "",
+                "activeRelationshipFields": {
+                    "childField": [],
+                    "parentField": []
+                },
+                "selectedCollections": [
+                    "c9e39700-cd8d-11ea-99bc-91a8ac92f343"
+                ],
+                "displayColorPicker": false,
+                "graphView": {
+                    "erd": [
+                        {
+                            "GUID": "959029b0-cd8c-11ea-99bc-91a8ac92f343",
+                            "size": 140,
+                            "x": 327.76874177344564,
+                            "y": 358.27068010228095,
+                            "isPined": true
+                        },
+                        {
+                            "GUID": "bd08d690-cd8c-11ea-99bc-91a8ac92f343",
+                            "size": 100,
+                            "x": 521.1939651746641,
+                            "y": 128.2859950622608,
+                            "isPined": false
+                        },
+                        {
+                            "GUID": "cfa62870-cd8c-11ea-99bc-91a8ac92f343",
+                            "size": 100,
+                            "x": 553.2792237786771,
+                            "y": 363.0356589299233,
+                            "isPined": true
+                        },
+                        {
+                            "GUID": "d8119d50-cd8c-11ea-99bc-91a8ac92f343",
+                            "size": 100,
+                            "x": 494.5811502621613,
+                            "y": 619.2553951954192,
+                            "isPined": true
+                        },
+                        {
+                            "GUID": "e978e030-cd8c-11ea-99bc-91a8ac92f343",
+                            "size": 100,
+                            "x": 235.25188522785538,
+                            "y": 135,
+                            "isPined": true
+                        },
+                        {
+                            "GUID": "a2e179b0-cd8d-11ea-99bc-91a8ac92f343",
+                            "size": 100,
+                            "x": 252.5322773263683,
+                            "y": 649.3825463282618
+                        },
+                        {
+                            "GUID": "c9e39700-cd8d-11ea-99bc-91a8ac92f343",
+                            "size": 100,
+                            "x": 84.90167824310466,
+                            "y": 399.2678290154595
+                        },
+                        {
+                            "GUID": "f98c5d70-cd8d-11ea-99bc-91a8ac92f343",
+                            "size": 100,
+                            "x": 80,
+                            "y": 100
+                        }
+                    ],
+                    "buckets": [
+                        {
+                            "x": 40,
+                            "y": 60,
+                            "GUID": "929cb340-cd8c-11ea-99bc-91a8ac92f343"
+                        }
+                    ],
+                    "decorativeSymbols": [],
+                    "hideRelationshipName": false,
+                    "showPropertiesBoxes": false,
+                    "nameAlongTheLine": false,
+                    "forceLayout": true,
+                    "defaultLinkLength": 300
+                },
+                "decorativeSymbols": [],
+                "nestedCollectionsLayout": "horizontal",
+                "options": []
+            },
+            "collectionLevel": {},
+            "changed": false
+        },
+        "dtDiagram": {
+            "collapsedNodes": [],
+            "details": true,
+            "hideErdDetails": false,
+            "shouldDistributeCollections": false
+        }
+    }
+}

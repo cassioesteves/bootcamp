@@ -1,0 +1,46 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Titulo_Detalhe",
+    "additionalProperties": false,
+    "properties": {
+        "ano_lancamento": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "qtd_minutos": {
+            "type": "string",
+            "format": "date-time"
+        },
+        "nom_principal_titulo": {
+            "type": "string",
+            "maxLength": 1000
+        },
+        "ind_adulto": {
+            "type": "string"
+        },
+        "tip_titulo": {
+            "type": "string",
+            "maxLength": 100
+        },
+        "cod_titulo": {
+            "type": "number"
+        },
+        "nom_original_titulo": {
+            "type": "string",
+            "maxLength": 1000
+        },
+        "dsc_genero": {
+            "type": "string",
+            "maxLength": 1000
+        }
+    },
+    "required": [
+        "ano_lancamento",
+        "nom_principal_titulo",
+        "ind_adulto",
+        "tip_titulo",
+        "cod_titulo",
+        "nom_original_titulo"
+    ]
+}

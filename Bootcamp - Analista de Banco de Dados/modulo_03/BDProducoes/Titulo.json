@@ -1,0 +1,19 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Titulo",
+    "additionalProperties": false,
+    "properties": {
+        "nom_titulo": {
+            "type": "string",
+            "maxLength": 500
+        },
+        "cod_titulo": {
+            "type": "number"
+        }
+    },
+    "required": [
+        "nom_titulo",
+        "cod_titulo"
+    ]
+}

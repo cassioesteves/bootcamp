@@ -1,0 +1,30 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "type": "object",
+    "title": "Elenco",
+    "additionalProperties": false,
+    "properties": {
+        "cod_titulo": {
+            "type": "number"
+        },
+        "cod_elenco": {
+            "type": "number"
+        },
+        "dsc_funcao": {
+            "type": "string",
+            "maxLength": 1000
+        },
+        "cod_pessoa": {
+            "type": "number"
+        },
+        "desc_pesonagem": {
+            "type": "string",
+            "maxLength": 1000
+        }
+    },
+    "required": [
+        "cod_titulo",
+        "dsc_funcao",
+        "cod_pessoa"
+    ]
+}
